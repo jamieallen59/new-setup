@@ -8,7 +8,8 @@ https://nodejs.org/en/download/
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
 ### run scripts
-`git clone blah blah`
+`git clone git@github.com:jamieallen59/new-setup.git`
+
 `npm i && npm start`
 
 ### apply iTerm styles & auto-suggestion
