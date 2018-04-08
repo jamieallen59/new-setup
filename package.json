@@ -1,0 +1,22 @@
+{
+  "name": "new-setup",
+  "version": "0.0.1",
+  "description": "A script to setup new computers",
+  "main": "new-setup.js",
+  "scripts": {
+    "start": "babel-node new-setup.js main"
+  },
+  "keywords": [
+    "new",
+    "setup"
+  ],
+  "author": "Jamie Allen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
