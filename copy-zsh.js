@@ -10,7 +10,6 @@ const download = async (url, dest, cb) => {
   const write = fs.createWriteStream(dest)
   success('started Downloading file')
 
-
   const request = https.get(url, async (response) => {
     if (response.statusCode !== 200) {
       error('Response status was ' + response.statusCode)
