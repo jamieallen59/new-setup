@@ -40,9 +40,8 @@ const download = async (url, dest, cb) => {
   return await request
 }
 
-
 const main = async () => {
-  const url = 'https://raw.githubusercontent.com/jamieallen59/new-comp-setup/master/.zshrc'
+  const url = 'https://raw.githubusercontent.com/jamieallen59/new-setup/master/.zshrc'
   const callback = () => success('Finished writing file')
   const destination = `${os.homedir()}/.zshrc`
 
