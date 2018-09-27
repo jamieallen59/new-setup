@@ -28,14 +28,29 @@ Add the key: https://github.com/settings/keys
 ### run scripts
 `git clone git@github.com:jamieallen59/new-setup.git`
 
-`npm i && npm start`
+`cd /new-setup && npm i && npm start`
 
 ### apply iTerm styles & auto-suggestion
-Save this file: https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors
+Download Meslo font: https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
+click the file and press 'Install fonts'
 
-Then apply it the profile: iTerm → preferences → profiles → colors → load presets
+Install Powerlevel 9K: 
+`git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k`
 
-`git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+Save this file: 
+`https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors`
+Then open the file (which will load it into iTerm2).
+
+Then apply the profile: 
+`iTerm → preferences → profiles → colors → load presets → Dark Solarized`
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+`
+
+Enable normal word jumping etc:
+`iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing`
+
+For any extra iTerm info: https://gist.github.com/kevin-smets/8568070
 
 ### sync up atom settings
 - go to sync-settings settings page
