@@ -1,8 +1,8 @@
 new-comp-setup
 ==============
 
-### Download node
-https://nodejs.org/en/download/
+### Download nvm
+`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
 
 ### Download homebrew
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
