@@ -7,6 +7,20 @@ new-comp-setup
 ### Download homebrew
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 
+### Add new github ssh key
+`ssh-keygen -t rsa -b 4096 -C "jamieallen59@gmail.com"`
+`eval "$(ssh-agent -s)"`
+Add to ssh config:
+```
+Host *
+ AddKeysToAgent yes
+ UseKeychain yes
+ IdentityFile ~/.ssh/id_rsa
+ ```
+`ssh-add -K ~/.ssh/id_rsa`
+`pbcopy < ~/.ssh/id_rsa.pub`
+Add the key: https://github.com/settings/keys
+
 ### run scripts
 `git clone git@github.com:jamieallen59/new-setup.git`
 
