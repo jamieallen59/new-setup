@@ -16,8 +16,12 @@ Install node e.g.
 
 ### Add new github ssh key
 `ssh-keygen -t rsa -b 4096 -C "jamieallen59@gmail.com"`
+
 `eval "$(ssh-agent -s)"`
+
 Add to ssh config:
+`code ~/.ssh/config`
+
 ```
 Host *
  AddKeysToAgent yes
@@ -25,7 +29,9 @@ Host *
  IdentityFile ~/.ssh/id_rsa
  ```
 `ssh-add -K ~/.ssh/id_rsa`
+
 `pbcopy < ~/.ssh/id_rsa.pub`
+
 Add the key: https://github.com/settings/keys
 
 ### run scripts
