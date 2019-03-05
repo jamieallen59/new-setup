@@ -8,14 +8,6 @@ export const ALREADY_INSTALLED_TEXTS = [
 ]
 
 export const STAGES = {
-  atom: {
-    name: 'atom',
-    cmd: 'brew cask install atom'
-  },
-  atomSyncSettings: {
-    name: 'atom sync-settings',
-    cmd: 'apm install sync-settings'
-  },
   iTerm2: {
     name: 'Iterm 2',
     cmd: 'brew cask install iterm2'
@@ -26,7 +18,7 @@ export const STAGES = {
   },
   copyZshConfig: {
     name: '.zshrc config file',
-    cmd: 'babel-node --presets latest copy-zsh.js'
+    cmd: 'babel-node copy-zsh.js'
   },
   docker: {
     name: 'docker',
