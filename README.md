@@ -1,6 +1,9 @@
 new-comp-setup
 ==============
 
+### create empty bash profile
+`touch ~/.bash_profile`
+
 ### Download nvm
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
 
