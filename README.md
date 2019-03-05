@@ -37,7 +37,7 @@ Add the key: https://github.com/settings/keys
 ### run scripts
 `git clone git@github.com:jamieallen59/new-setup.git`
 
-`cd /new-setup && npm i && npm start`
+`cd new-setup/ && npm i && npm start`
 
 ### apply iTerm styles & auto-suggestion
 Download Meslo font: https://github.com/powerline/fonts/blob/master/Meslo%20Slashed/Meslo%20LG%20M%20Regular%20for%20Powerline.ttf
