@@ -1,6 +1,9 @@
 new-comp-setup
 ==============
 
+### Download VS code
+https://code.visualstudio.com/
+
 ### create empty bash profile
 `touch ~/.bash_profile`
 
@@ -50,7 +53,10 @@ Save this file:
 `https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/Solarized%20Dark%20-%20Patched.itermcolors`
 Then open the file (which will load it into iTerm2).
 
-Then apply the profile: 
+Then apply the font:
+`iTerm → preferences → profiles → text → change font → 12pt Meslo... etc`
+
+Then apply the profile:
 `iTerm → preferences → profiles → colors → load presets → Dark Solarized`
 
 `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
@@ -60,10 +66,3 @@ Enable normal word jumping etc:
 `iTerm → Preferences → Profiles → Keys → Load Preset... → Natural Text Editing`
 
 For any extra iTerm info: https://gist.github.com/kevin-smets/8568070
-
-### sync up atom settings
-- go to sync-settings settings page
-- enter github Access Token: ee6024da10bfcef95795e4d3dc9e923ea5d33e33
-- enter Gist id: 2eb86c6fdf0a3cf213af28e983af117e
-- in atom, type `Cmd + shift + p` and then `sync-settings:restore`
-- then `Cmd + shift + p` and then `Window: Install shell commands`
