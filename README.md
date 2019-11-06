@@ -8,11 +8,11 @@ https://code.visualstudio.com/
 `touch ~/.bash_profile`
 
 ### Download nvm
-`curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
 
 Install node e.g.
 
-`nvm install 10.0.0`
+`nvm install 12.3.0`
 
 ### Download homebrew
 `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
