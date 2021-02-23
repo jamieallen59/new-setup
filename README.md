@@ -8,14 +8,18 @@ https://code.visualstudio.com/
 `touch ~/.bash_profile`
 
 ### Download nvm
-`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash`
+`curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | zsh`
 
-Install node e.g.
+Install node.
 
-`nvm install 12.3.0`
+`nvm install stable`
+
+Install yarn.
+
+`npm i -g yarn`
 
 ### Download homebrew
-`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
 ### Add new github ssh key
 `ssh-keygen -t rsa -b 4096 -C "jamieallen59@gmail.com"`
